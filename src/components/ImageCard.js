@@ -14,7 +14,8 @@ const ImageCard = ({ image }) => {
             {image.views}
           </li>
           <li>
-            <strong>Downloads: </strong>300
+            <strong>Downloads: </strong>
+            {image.downloads}
           </li>
           <li>
             <strong>Likes: </strong>400
