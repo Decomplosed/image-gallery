@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImageCard = () => {
+const ImageCard = ({ image }) => {
   return (
     <div className='max-w-sm rounded overflow-hidden shadow-lg'>
       <img
