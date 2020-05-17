@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 
 function App() {
+  const [images, setImages] = useState([])
+
   return (
     <div className='max-w-sm rounded overflow-hidden shadow-lg'>
       <img
