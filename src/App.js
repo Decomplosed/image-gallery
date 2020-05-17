@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 function App() {
   const [images, setImages] = useState([])
+  const [isLoading, setIsLoading] = useState(false)
 
   return (
     <div className='max-w-sm rounded overflow-hidden shadow-lg'>
