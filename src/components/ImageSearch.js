@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 
 const ImageSearch = () => {
+  const [text, setText] = useState('')
+
   return (
     <div className='max-w-sm rounded overflow-hidden my-10 mx-auto'>
       <form className='w-full max-w-sm'>
