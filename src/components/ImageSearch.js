@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const ImageSearch = () => {
+const ImageSearch = ({ searchText }) => {
   const [text, setText] = useState('')
 
   return (
